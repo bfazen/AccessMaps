@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 90
+.externalToolBuilders
+
+.settings
+
+ext
+
+gen
+
+lib
+
+.classpath
+
+.project
+
+default.properties
+
+END
