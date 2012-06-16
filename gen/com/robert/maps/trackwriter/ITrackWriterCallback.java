@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/bhome/Documents/RMaps2/src/com/robert/maps/trackwriter/ITrackWriterCallback.aidl
+ * Original file: /Users/bhome/Documents/EclipseWorkspace/MapsForChws/src/com/robert/maps/trackwriter/ITrackWriterCallback.aidl
  */
 package com.robert.maps.trackwriter;
 public interface ITrackWriterCallback extends android.os.IInterface
