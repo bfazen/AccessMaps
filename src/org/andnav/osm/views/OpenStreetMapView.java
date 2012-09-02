@@ -604,7 +604,7 @@ public class OpenStreetMapView extends View implements OpenStreetMapConstants,
 		 * Calculate the amount of tiles needed for each side around the center
 		 * one.
 		 */
-		// TODO Нужен адекватный алгоритм для отбора необходимых тайлов, попадающих в экран при повороте карты
+		// TODO! Нужен адекватный алгоритм для отбора необходимых тайлов, попадающих в экран при повороте карты
 		final int iDelta = mBearing > 0 && mRendererInfo.YANDEX_TRAFFIC_ON == 0 ? 1 : 0;
 		final int additionalTilesNeededToLeftOfCenter = iDelta + (int) Math
 				.ceil((float) centerMapTileScreenLeftNotScale / tileSizePxNotScale); // i.e.

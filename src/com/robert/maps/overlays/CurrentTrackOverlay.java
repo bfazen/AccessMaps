@@ -188,7 +188,7 @@ public class CurrentTrackOverlay extends OpenStreetMapViewOverlay {
 
 	@Override
 	protected void onDrawFinished(Canvas c, OpenStreetMapView osmv) {
-		// TODO Auto-generated method stub
+		// TODO! Auto-generated method stub
 
 	}
 

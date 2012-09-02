@@ -180,7 +180,7 @@ public class ChartView extends View {
 		// for (ChartValueSeries cvs : series) {
 		// cvs.updateDimension();
 		// }
-		// // TODO: This is totally broken. Make sure that we calculate based on
+		// // TODO! This is totally broken. Make sure that we calculate based on
 		// measureText for each
 		// // grid line, as the labels may vary across intervals.
 		// int maxLength = 0;

@@ -105,6 +105,11 @@ public class LoadDefaultPoiCategories extends Thread {
 					int und = fileName.indexOf("_");
 					int und_title = und + 1;  
 					
+
+					if(OpenStreetMapViewConstants.DEBUGMODE) Log.e("RMAPS-Me-LoadPoi", "LoadDefaultPoiCategories filename is: " + fileName);
+					if(OpenStreetMapViewConstants.DEBUGMODE) Log.e("RMAPS-Me-LoadPoi", "LoadDefaultPoiCategories dot is: " + dot);
+					if(OpenStreetMapViewConstants.DEBUGMODE) Log.e("RMAPS-Me-LoadPoi", "LoadDefaultPoiCategories und is: " + und);
+					
 					mTitle = fileName.substring(und_title, dot);
 					mId = Integer.valueOf(fileName.substring(0, und));
 

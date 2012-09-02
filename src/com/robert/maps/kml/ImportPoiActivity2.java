@@ -69,10 +69,10 @@ public class ImportPoiActivity2 extends Activity {
 				try {
 					parser = fac.newSAXParser();
 				} catch (ParserConfigurationException e) {
-					// TODO Auto-generated catch block
+					// TODO! Auto-generated catch block
 					e.printStackTrace();
 				} catch (SAXException e) {
-					// TODO Auto-generated catch block
+					// TODO! Auto-generated catch block
 					e.printStackTrace();
 				}
 				if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me-LoadPoi", "SAXParser all set");
@@ -93,11 +93,11 @@ public class ImportPoiActivity2 extends Activity {
 
 						mPoiManager.commitTransaction();
 					} catch (SAXException e) {
-						// TODO Auto-generated catch block
+						// TODO! Auto-generated catch block
 						e.printStackTrace();
 						mPoiManager.rollbackTransaction();
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
+						// TODO! Auto-generated catch block
 						e.printStackTrace();
 						mPoiManager.rollbackTransaction();
 					} catch (IllegalStateException e) {
