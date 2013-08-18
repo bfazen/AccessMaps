@@ -11,7 +11,7 @@ public interface OpenStreetMapViewConstants {
 	// Final Fields
 	// ===========================================================
 	//louis.fazen@gmail.com changed boolean pref for debug mode
-	public static final boolean DEBUGMODE = false;
+	public static final boolean DEBUGMODE = true;
 
 	//louis.fazen@gmail.com changed this form 30 to 0 NOT!
 	public static final int CACHE_MAPTILECOUNT_DEFAULT = 30;

@@ -468,7 +468,7 @@ public class MainMapActivity extends OpenStreetMapActivity implements OpenStreet
 //      louis.fazen@gmail.com.... the following worked!  x1
 //		startActivity((new Intent(this, ImportPoiActivity2.class)));
 		
-//        if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "MainMapActivity end of onCreate Method");
+        if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "MainMapActivity end of onCreate Method");
     }
 
 	@Override
