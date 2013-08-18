@@ -75,7 +75,7 @@ public class PoiOverlay extends OpenStreetMapViewOverlay {
 		mCanUpdateList = !hidepoi;
 		mTapIndex = -1;
 
-//		TODO: need to change this back to the way it was so that the icons look good again...! Is that possible?
+//		TODO! need to change this back to the way it was so that the icons look good again...! Is that possible?
 //		1. louis.fazen changing the individual lines old and new
 //		Drawable marker = ctx.getResources().getDrawable(R.drawable.poi);
 		Drawable marker = new BitmapDrawable(mCtx.getResources(), "/sdcard/rmaps/import/1.png");

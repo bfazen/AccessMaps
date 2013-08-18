@@ -85,7 +85,7 @@ public interface PoiConstants {
 	public static final String SQL_CREATE_poiicons = "CREATE TABLE 'poiicons' (iconid INTEGER NOT NULL PRIMARY KEY UNIQUE, name VARCHAR, image BLOB);";
 
 	//louis.fazen@gmail.com changed this, but will need to change again to make it more generalizeable 
-	//TODO: change this category table so that instead of iconid you have a blob, and then import the blobs from the file system
+	//TODO!: change this category table so that instead of iconid you have a blob, and then import the blobs from the file system
 	//They can be assigned an auto-increment value for categoryid, but the import process should have a way to pull in the values from the SDCard... 
 	//or even better would be from a google account, and then they could be updated?  the name should be brought in by the string name from the kml file, and it 
 	//should be associated with an icon blob that has the same name from the SDCard

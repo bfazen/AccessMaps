@@ -498,7 +498,7 @@ public class OpenStreetMapTileFilesystemProvider implements OpenStreetMapConstan
 							OpenStreetMapTileFilesystemProvider.this.mCache.putTile(aTileURLString, bmp);
 						} catch (OutOfMemoryError e) {
 							Ut.w("OutOfMemoryError");
-							// TODO Попытка отловить OutOfMemory
+							// TODO! Попытка отловить OutOfMemory
 							e.printStackTrace();
 						}
 
@@ -1169,7 +1169,7 @@ public class OpenStreetMapTileFilesystemProvider implements OpenStreetMapConstan
 
 	public SQLiteDatabase getIndexDatabase() {
 		File folder = Ut.getRMapsMainDir(mCtx, "data");
-		if(!folder.exists()) // no sdcard // TODO Проверить как это работает без карты? если вытащить карту во время работы программы?
+		if(!folder.exists()) // no sdcard // TODO! Проверить как это работает без карты? если вытащить карту во время работы программы?
 			return null;
 		
 		if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me-OSMTFS Provider", "OpenStreetMapTileFileSystemProvider getIndexDatabase is called and mCtx is; " + mCtx);

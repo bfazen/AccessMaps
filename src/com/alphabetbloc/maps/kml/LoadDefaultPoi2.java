@@ -41,10 +41,10 @@ public class LoadDefaultPoi2 {
 				try {
 					parser = fac.newSAXParser();
 				} catch (ParserConfigurationException e) {
-					// TODO Auto-generated catch block
+					// TODO! Auto-generated catch block
 					e.printStackTrace();
 				} catch (SAXException e) {
-					// TODO Auto-generated catch block
+					// TODO! Auto-generated catch block
 					e.printStackTrace();
 				}
 
@@ -62,11 +62,11 @@ public class LoadDefaultPoi2 {
 
 						mPoiManager.commitTransaction();
 					} catch (SAXException e) {
-						// TODO Auto-generated catch block
+						// TODO! Auto-generated catch block
 						e.printStackTrace();
 						mPoiManager.rollbackTransaction();
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
+						// TODO! Auto-generated catch block
 						e.printStackTrace();
 						mPoiManager.rollbackTransaction();
 					} catch (IllegalStateException e) {

@@ -1,4 +1,4 @@
-//TODO Direction http://maps.google.com/maps/nav?key=ABQIAAAAzr2EBOXUKnm_jVnk0OJI7xSosDVG8KKPE1-m51RBrvYughuyMxQ-i1QfUnH94QxWIa6N4U6MouMmBA&output=js&dirflg=d&hl=en&mapclient=jsapi&q=from:%2065.366837,26.71875%20to:%2065.50,26.80
+//TODO! Direction http://maps.google.com/maps/nav?key=ABQIAAAAzr2EBOXUKnm_jVnk0OJI7xSosDVG8KKPE1-m51RBrvYughuyMxQ-i1QfUnH94QxWIa6N4U6MouMmBA&output=js&dirflg=d&hl=en&mapclient=jsapi&q=from:%2065.366837,26.71875%20to:%2065.50,26.80
 // from:%2065.366837,26.71875%20to:%2065.50,26.80
 // http://maps.google.com/maps?saddr=65.366837,26.71875&daddr=65.50,26.80&output=kml
 package com.robert.maps;
@@ -468,7 +468,7 @@ public class MainMapActivity extends OpenStreetMapActivity implements OpenStreet
 //      louis.fazen@gmail.com.... the following worked!  x1
 //		startActivity((new Intent(this, ImportPoiActivity2.class)));
 		
-//        if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "MainMapActivity end of onCreate Method");
+        if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "MainMapActivity end of onCreate Method");
     }
 
 	@Override
@@ -482,7 +482,7 @@ public class MainMapActivity extends OpenStreetMapActivity implements OpenStreet
 			mPoiManager.FreeDatabases();
 //			 if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "mPoiManager successfully FreeDatabases on Destroy");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			// TODO! Auto-generated catch block
 //			 if(OpenStreetMapViewConstants.DEBUGMODE) Log.d("RMAPS-Me", "mPoiManager could not FreeDatabases on Destroy");
 			e.printStackTrace();
 		}

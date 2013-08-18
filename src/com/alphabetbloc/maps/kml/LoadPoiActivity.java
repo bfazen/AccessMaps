@@ -144,10 +144,10 @@ public class LoadPoiActivity extends Activity {
 //				try {
 //					parser = fac.newSAXParser();
 //				} catch (ParserConfigurationException e) {
-//					// TODO Auto-generated catch block
+//					// TODO! Auto-generated catch block
 //					e.printStackTrace();
 //				} catch (SAXException e) {
-//					// TODO Auto-generated catch block
+//					// TODO! Auto-generated catch block
 //					e.printStackTrace();
 //				}
 //
@@ -163,11 +163,11 @@ public class LoadPoiActivity extends Activity {
 //					//	mPoiManager.commitTransaction();
 //						mGeoDatabase.commitTransaction();
 //					} catch (SAXException e) {
-//						// TODO Auto-generated catch block
+//						// TODO! Auto-generated catch block
 //						e.printStackTrace();
 //						mPoiManager.rollbackTransaction();
 //					} catch (IOException e) {
-//						// TODO Auto-generated catch block
+//						// TODO! Auto-generated catch block
 //						e.printStackTrace();
 //						mPoiManager.rollbackTransaction();
 //					} catch (IllegalStateException e) {
