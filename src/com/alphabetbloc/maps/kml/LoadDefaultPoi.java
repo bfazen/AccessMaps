@@ -2,35 +2,19 @@ package com.alphabetbloc.maps.kml;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import org.andnav.osm.views.util.constants.OpenStreetMapViewConstants;
-
-
-import org.openintents.filemanager.FileManagerActivity;
-import org.openintents.filemanager.IconifiedText;
-import org.openintents.filemanager.IconifiedTextListAdapter;
 import org.openintents.filemanager.util.FileUtils;
 import org.xml.sax.SAXException;
 
-import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.os.Handler;
-import android.os.Message;
 import android.util.Log;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.robert.maps.kml.ImportPoiActivity;
 import com.robert.maps.kml.PoiManager;
